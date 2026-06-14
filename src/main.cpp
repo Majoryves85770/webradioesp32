@@ -1,3 +1,11 @@
+//=====================
+// code de la radio web wifi , les liens des stations qui y figurent sont donnés à titre d'exemple , 
+// vous les insérez en lieu et place de ceux présents. 
+// attention chaque nouvelle station nécessite l'insertion et la conversion du logo dans le fichier logo.h
+// réalisé par MAJORYves - 
+//=======================
+
+
 #include <Arduino.h>
 #include <SPI.h>
 #include <WiFi.h>
@@ -65,8 +73,8 @@
 // ============================================================
 // WiFi
 // ============================================================
-const char* WIFI_SSID = "";
-const char* WIFI_PASS = "X";
+const char* WIFI_SSID = ""; // modifiez et indiquez ici votre SSID 
+const char* WIFI_PASS = "X"; // remplacez par votre mot de passe 
 
 // ============================================================
 // STATIONS
@@ -77,7 +85,7 @@ struct Station {
 };
 
 const Station stations[] = {
-  { "RTL",        "http://streaming.radio.rtl.fr/rtl-1-44-128" },
+  { "RTL",        "http://streaming.radio.rtl.fr/rtl-1-44-128" }, // attention assurez vous que les liens n'ont pas changé, ici à titre d'exemple ..
   { "ICI POITOU", "http://direct.francebleu.fr/live/fbpoitou-midfi.mp3" },
   { "ALOUETTE",   "https://alouette-larochesuryon.ice.infomaniak.ch/alouette-larochesuryon-128.mp3" },
   { "COLLINES",   "http://collineslaradio.ice.infomaniak.ch/collineslaradio-128.mp3" },
