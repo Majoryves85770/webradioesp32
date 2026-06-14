@@ -11,7 +11,7 @@ Le tout est assemblé dans une radio FM d'une marque bien connue , à peine modi
 
 
 
-des touches tactiles afin de changer de stations , l'affichage du logo de la station sélectionnée et un équalizer en dessous du logo. Un bouton marche arrêt et l'ampli LOSC 2X 5W
+des touches tactiles afin de changer de station , l'affichage du logo de la station sélectionnée et un équalizer en dessous du logo. Un bouton marche arrêt et l'ampli LOSC 2X 5W
 ---
 
 ## 🎧 Fonctionnalités
